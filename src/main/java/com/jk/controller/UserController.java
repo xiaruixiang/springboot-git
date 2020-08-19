@@ -13,4 +13,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("/user")
 public class UserController {
 
+    @RequestMapping("hello")
+    public void hello(){
+
+    }
 }
